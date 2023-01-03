@@ -5,7 +5,7 @@ WORKDIR /app
 
 RUN npm install --force
 COPY . /app
-RUN chown -R node /app/node_modules
+#RUN chown -R node /app/node_modules
 USER node
 
 EXPOSE 8080
