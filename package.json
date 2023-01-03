@@ -1,0 +1,15 @@
+{
+    "dependencies": {
+        "express": "*"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "name": "docker-basic",
+    "version": "1.0.0",
+    "main": "app.js",
+    "devDependencies": {},
+    "author": "robertath",
+    "license": "MIT",
+    "description": "Sample NodeJS Project with Expres FrameWork and Running in Docker Container"
+}
